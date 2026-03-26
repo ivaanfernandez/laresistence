@@ -89,7 +89,7 @@
         .features-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
         .feature-item { background: #fff; border: 1.5px solid rgba(59,158,255,0.3); padding: 18px 16px; border-radius: 6px; box-shadow: 0 0 0 3px rgba(59,158,255,0.07), 0 4px 20px rgba(59,158,255,0.15), 0 1px 4px rgba(0,0,0,0.03); cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease; }
         .feature-item:hover { transform: translateY(-3px) scale(1.02); border-color: rgba(59,158,255,0.55); box-shadow: 0 0 0 4px rgba(59,158,255,0.12), 0 10px 32px rgba(59,158,255,0.26), 0 2px 8px rgba(0,0,0,0.05); }
-        .feature-item h4 { font-family: 'Barlow Condensed', 'Arial Black', sans-serif; font-weight: 800; font-size: 13px; color: #000; text-transform: uppercase; letter-spacing: 0; margin-bottom: 0; }
+        .feature-item h4 { font-family: 'Barlow Condensed', 'Arial Black', sans-serif; font-weight: 800; font-size: 13px; color: #000; text-transform: uppercase; margin-bottom: 0; }
         .feature-item p { font-family: Georgia, 'Times New Roman', serif; font-size: 12px; color: #999; line-height: 1.4; margin-top: 5px; }
         .section-divider-dashed { background: #ffffff; padding: 24px 24px 12px; text-align: center; }
         .section-divider-dashed span { font-family: 'Anton', 'Arial Black', sans-serif; font-weight: 900; font-size: 28px; color: #1a1a1a; text-transform: uppercase; letter-spacing: 4px; }
@@ -99,15 +99,14 @@
         .hero-content { animation: heroFadeIn 1.2s ease-out forwards; }
         @keyframes heroFadeIn { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
         .footer { background: #111111; padding: 0; }
-        .white-section { background: #ffffff; padding: 0 24px; }
     </style>
 </head>
 <body>
     <section class="hero" id="hero">
-        <div class="hero-bg"><img src="Fondo Web la resistencia.png" alt="Fondo La Resistencia"></div>
+        <div class="hero-bg"><img src="https://i.ibb.co/ymgq7fct/Fondo-Web-la-resistencia.png" alt="Fondo La Resistencia"></div>
         <div class="hero-overlay"></div>
         <nav class="hero-nav">
-            <div class="hero-logo"><img src="ISOTIPO OUTLINE LA RESISTENCIA-06.png" alt="La Resistencia Logo"></div>
+            <div class="hero-logo"><img src="https://i.ibb.co/dw5ZqDt3/ISOTIPO-OUTLINE-LA-RESISTENCIA-06.png" alt="La Resistencia Logo"></div>
             <div class="lang-fill">
                 <button class="active">ESP</button>
                 <button>ENG</button>
@@ -136,7 +135,7 @@
             <div class="lie-header"><span class="lie-badge">LIE</span><span class="lie-text" data-i18n="lie02Text">"ESENCIA IS A PRIVATE CITY / GATED ENCLAVE FOR OUTSIDERS"</span></div>
             <div class="truth-box"><p data-i18n="lie02Truth">Esencia is not a city. It's a <strong>low-density, 2,000-acre community</strong> with a town center, trails, and public beach amenities. And <strong>60% of buyers are from Puerto Rico</strong>.</p></div>
         </div>
-        <div class="playa-image fade-in"><img src="Playa.avif" alt="Playa de Cabo Rojo"></div>
+        <div class="playa-image fade-in"><img src="https://i.ibb.co/JjhwTFM4/Playa.avif" alt="Playa de Cabo Rojo"></div>
         <div class="lie-item fade-in">
             <div class="lie-number">03</div>
             <div class="lie-header"><span class="lie-badge">LIE</span><span class="lie-text" data-i18n="lie03Text">"ESENCIA WILL PRIVATIZE THE BEACHES"</span></div>
@@ -163,7 +162,7 @@
                 <button class="fact-tab" data-tab="truth">LA VERDAD</button>
             </div>
             <div class="fact-panel active" data-panel="lie">
-                <div class="lie-row"><span class="pill-badge" data-i18n-badge="lie06">MENTIRA</span><span class="lie-text" data-i18n="lie06Text">"ESENCIA WILL STEAL WATER FROM LOCAL PEOPLE"</span></div>
+                <div class="lie-row"><span class="pill-badge">MENTIRA</span><span class="lie-text" data-i18n="lie06Text">"ESENCIA WILL STEAL WATER FROM LOCAL PEOPLE"</span></div>
             </div>
             <div class="fact-panel" data-panel="truth">
                 <div class="truth-text" data-i18n="lie06Truth"><strong>Esencia does not rely on the public water system.</strong> The project is built to be <strong>completely self-sufficient on water</strong>: its own deep wells, <span class="highlight-badge-blue">1M-GALLON</span> storage tank, advanced filtration, rainwater harvesting, and full wastewater recycling for irrigation.</div>
@@ -175,7 +174,7 @@
                 <button class="fact-tab" data-tab="truth">LA VERDAD</button>
             </div>
             <div class="fact-panel active" data-panel="lie">
-                <div class="lie-row"><span class="pill-badge" data-i18n-badge="lie07">MENTIRA</span><span class="lie-text" data-i18n="lie07Text">"ESENCIA WILL STEAL LOCAL ENERGY AND STRAIN THE GRID"</span></div>
+                <div class="lie-row"><span class="pill-badge">MENTIRA</span><span class="lie-text" data-i18n="lie07Text">"ESENCIA WILL STEAL LOCAL ENERGY AND STRAIN THE GRID"</span></div>
             </div>
             <div class="fact-panel" data-panel="truth">
                 <div class="truth-text" data-i18n="lie07Truth">Esencia generates its own power. A <span class="highlight-badge-blue">68MW SOLAR</span> system, battery energy storage, and smart microgrid technology mean the project runs on <strong>its own renewable energy</strong>, not the public grid.</div>
@@ -201,41 +200,41 @@
         <div class="news-cards-container">
             <div class="news-card fade-in" onclick="toggleNewsCard(this)">
                 <div class="nc-collapsed">
-                    <div class="nc-thumb"><img src="PR_PR.jpeg" alt="Puerto Rico"></div>
+                    <div class="nc-thumb"><img src="https://i.ibb.co/H1r2sNm/PR-PR.jpg" alt="Puerto Rico"></div>
                     <div class="nc-side">
-                        <div class="nc-meta"><span class="nc-pill" data-i18n-pill="lie08">MENTIRA</span></div>
+                        <div class="nc-meta"><span class="nc-pill">MENTIRA</span></div>
                         <p class="nc-lie" data-i18n="lie08Text">"ESENCIA IS ONLY FOR FOREIGNERS AND BILLIONAIRES"</p>
                         <p class="nc-headline">El 60% de los compradores son puertorriqueños.</p>
                         <span class="nc-hint">Ver la verdad <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3"/></svg></span>
                     </div>
                 </div>
-                <div class="nc-img-full"><img src="PR_PR.jpeg" alt="Puerto Rico"></div>
+                <div class="nc-img-full"><img src="https://i.ibb.co/H1r2sNm/PR-PR.jpg" alt="Puerto Rico"></div>
                 <div class="nc-expanded"><div class="nc-expanded-inner" data-i18n="lie08Truth"><strong>60% of buyers are Puerto Rican.</strong> The project brings <span class="highlight-badge-dark">$2.5B</span> in private investment and an estimated <span class="highlight-badge-dark">17,000</span> direct, indirect, and induced jobs to the island.</div></div>
             </div>
             <div class="news-card fade-in" onclick="toggleNewsCard(this)">
                 <div class="nc-collapsed">
-                    <div class="nc-thumb"><img src="EsenciaBeach.png" alt="Esencia Beach"></div>
+                    <div class="nc-thumb"><img src="https://i.ibb.co/PGP1khzY/Esencia-Beach.png" alt="Esencia Beach"></div>
                     <div class="nc-side">
-                        <div class="nc-meta"><span class="nc-pill" data-i18n-pill="lie09">MENTIRA</span></div>
+                        <div class="nc-meta"><span class="nc-pill">MENTIRA</span></div>
                         <p class="nc-lie" data-i18n="lie09Text">"ESENCIA WILL HURT THE LOCAL ECONOMY / TAKES WITHOUT GIVING BACK"</p>
                         <p class="nc-headline">Esencia está 100% financiado con capital privado.</p>
                         <span class="nc-hint">Ver la verdad <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3"/></svg></span>
                     </div>
                 </div>
-                <div class="nc-img-full"><img src="EsenciaBeach.png" alt="Esencia Beach"></div>
+                <div class="nc-img-full"><img src="https://i.ibb.co/PGP1khzY/Esencia-Beach.png" alt="Esencia Beach"></div>
                 <div class="nc-expanded"><div class="nc-expanded-inner" data-i18n="lie09Truth">Esencia is <strong>100% privately funded</strong> with $2.5B in planned investment creating <strong>17,000 jobs</strong> and long-term economic activity across Puerto Rico.</div></div>
             </div>
             <div class="news-card fade-in" onclick="toggleNewsCard(this)">
                 <div class="nc-collapsed">
-                    <div class="nc-thumb"><img src="Sunset.png" alt=""></div>
+                    <div class="nc-thumb"><img src="https://i.ibb.co/5XVNgtbj/Sunset.png" alt="Sunset"></div>
                     <div class="nc-side">
-                        <div class="nc-meta"><span class="nc-pill" data-i18n-pill="lie10">MENTIRA</span></div>
+                        <div class="nc-meta"><span class="nc-pill">MENTIRA</span></div>
                         <p class="nc-lie" data-i18n="lie10Text">"ESENCIA IS GETTING PUBLIC MONEY AND TAX BREAKS"</p>
                         <p class="nc-headline">Cero dinero del gobierno recibido.</p>
                         <span class="nc-hint">Ver la verdad <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3"/></svg></span>
                     </div>
                 </div>
-                <div class="nc-img-full"><img src="Sunset.png" alt=""></div>
+                <div class="nc-img-full"><img src="https://i.ibb.co/5XVNgtbj/Sunset.png" alt="Sunset"></div>
                 <div class="nc-expanded"><div class="nc-expanded-inner" data-i18n="lie10Truth"><strong>Zero government money received.</strong> 100% privately funded. Any incentives under Act 74 only activate if and when jobs are actually created.</div></div>
             </div>
         </div>
@@ -251,16 +250,10 @@
         </div>
     </div>
     <div class="footer">
-        <img src="FOOTER.png" alt="La Resistencia Footer" style="width:100%;display:block;">
+        <img src="https://i.ibb.co/DD8JV2wb/FOOTER.png" alt="La Resistencia Footer" style="width:100%;display:block;">
     </div>
     <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
-            });
-        });
-
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => { anchor.addEventListener('click', function(e) { e.preventDefault(); document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' }); }); });
         const translations = {
             esp: {
                 heroTitle: 'LA VERDAD<br>TE HARÁ LIBRE', heroSubtitle: '¡NO MÁS MENTIRAS!', heroCta: 'DESCUBRE LA REALIDAD', factsTitle: 'LA VERDAD SOBRE ESENCIA',
@@ -313,9 +306,7 @@
                 lieBadge: 'LIE'
             }
         };
-
         let currentLang = 'esp';
-
         function switchLanguage(lang) {
             if (lang === currentLang) return;
             currentLang = lang;
@@ -338,16 +329,11 @@
             for (let i = 1; i <= 12; i++) { const num = String(i).padStart(2, '0'); const textEl = document.querySelector('[data-i18n="lie' + num + 'Text"]'); const truthEl = document.querySelector('[data-i18n="lie' + num + 'Truth"]'); if (textEl) textEl.textContent = t['lie' + num + 'Text']; if (truthEl) truthEl.innerHTML = t['lie' + num + 'Truth']; }
             document.documentElement.lang = lang === 'esp' ? 'es' : 'en';
         }
-
         document.querySelectorAll('.lang-fill button').forEach(btn => { btn.addEventListener('click', () => { switchLanguage(btn.textContent.toLowerCase()); }); });
-
         function toggleNewsCard(card) { const isOpen = card.classList.contains('open'); document.querySelectorAll('.news-card.open').forEach(c => c.classList.remove('open')); if (!isOpen) card.classList.add('open'); }
-
         document.querySelectorAll('.fact-tab').forEach(tab => { tab.addEventListener('click', () => { const item = tab.closest('.fact-item'); const target = tab.dataset.tab; item.querySelectorAll('.fact-tab').forEach(t => t.classList.toggle('active', t.dataset.tab === target)); item.querySelectorAll('.fact-panel').forEach(p => p.classList.toggle('active', p.dataset.panel === target)); }); });
-
         const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }, { threshold: 0.15 });
         document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-
         (function() { currentLang = 'eng'; switchLanguage('esp'); })();
     </script>
 </body>
