@@ -17,7 +17,7 @@
 
         body {
             font-family: 'Anton', 'Arial Black', Arial, sans-serif;
-            background: #ffffff;
+            background: #0a0a0a;
             color: #1a1a1a;
             max-width: 480px;
             margin: 0 auto;
@@ -180,14 +180,14 @@
         .hero-fade-out {
             position: relative;
             height: 120px;
-            background: linear-gradient(to bottom, transparent 0%, #ffffff 100%);
+            background: linear-gradient(to bottom, transparent 0%, #0a0a0a 100%);
             margin-top: -120px;
             z-index: 6;
             pointer-events: none;
         }
 
         .hero-to-facts-transition {
-            background: #ffffff;
+            background: linear-gradient(to bottom, #0a0a0a 0%, #1a1a1a 30%, #ffffff 100%);
             height: 80px;
         }
 
@@ -558,7 +558,7 @@
 
         .highlight-badge {
             display: inline-block;
-            background: #5ba8d4;
+            background: #e21a1a;
             color: #fff;
             font-family: 'Anton', 'Arial Black', sans-serif;
             font-weight: 800;
@@ -747,7 +747,10 @@
         }
 
         /* ==================== TRANSITION SECTION ==================== */
-        .transition-section { display: none; }
+        .transition-section {
+            height: 80px;
+            background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 50%, #ffffff 100%);
+        }
 
         /* ==================== FOOTER / BOTTOM ==================== */
         .footer {
@@ -1153,12 +1156,12 @@
     <!-- ==================== HERO SECTION ==================== -->
     <section class="hero" id="hero">
         <div class="hero-bg">
-            <img src="https://i.ibb.co/ymgq7fct/Fondo-Web-la-resistencia.png" alt="Fondo La Resistencia">
+            <img src="Fondo Web la resistencia.png" alt="Fondo La Resistencia">
         </div>
         <div class="hero-overlay"></div>
         <nav class="hero-nav">
             <div class="hero-logo">
-                <img src="https://i.ibb.co/dw5ZqDt3/ISOTIPO-OUTLINE-LA-RESISTENCIA-06.png" alt="La Resistencia Logo">
+                <img src="ISOTIPO OUTLINE LA RESISTENCIA-06.png" alt="La Resistencia Logo">
             </div>
             <div class="lang-fill">
                 <button class="active">ESP</button>
@@ -1180,7 +1183,7 @@
 
     <!-- ==================== FACTS HEADER ==================== -->
     <section class="facts-header fade-in" id="facts">
-        <div class="facts-header-title" data-i18n="factsTitle">LA VERDAD SOBRE ESENCIA</div>
+        <div class="facts-header-title shiny-text" data-i18n="factsTitle">LA VERDAD SOBRE ESENCIA</div>
         <div class="facts-divider"></div>
     </section>
 
@@ -1213,7 +1216,7 @@
 
         <!-- PLAYA IMAGE -->
         <div class="playa-image fade-in">
-            <img src="https://i.ibb.co/JjhwTFM4/Playa.avif" alt="Playa de Cabo Rojo">
+            <img src="Playa.avif" alt="Playa de Cabo Rojo">
         </div>
 
         <!-- 03 -->
@@ -1253,9 +1256,9 @@
         </div>
     </div>
 
-    <!-- ==================== WATER DIVIDER ==================== -->
-    <div class="section-divider-dashed" style="background:#ffffff;">
-        <span style="background:#ffffff;" data-i18n="blueDivider">AGUA E INFRAESTRUCTURA</span>
+    <!-- ==================== BLUE DIVIDER ==================== -->
+    <div class="section-divider-blue">
+        <span data-i18n="blueDivider"><span class="diamond">&#9670;</span> SELF-SUFFICIENT &middot; WATER & INFRASTRUCTURE <span class="diamond">&#9670;</span></span>
     </div>
 
     <!-- ==================== TABBED ITEMS 06-07 ==================== -->
@@ -1295,6 +1298,8 @@
         </div>
     </div>
 
+    <!-- ==================== TRANSITION AFTER #7 ==================== -->
+    <div class="transition-section"></div>
 
     <!-- ==================== SECTION - BUILT TO BE SELF-SUFFICIENT ==================== -->
     <div class="dark-section">
@@ -1340,7 +1345,7 @@
         <div class="news-card fade-in" onclick="toggleNewsCard(this)">
             <div class="nc-collapsed">
                 <div class="nc-thumb">
-                    <img src="https://i.ibb.co/H1r2sNm/PR-PR.jpg" alt="Puerto Rico" />
+                    <img src="PR_PR.jpeg" alt="Puerto Rico" />
                 </div>
                 <div class="nc-side">
                     <div class="nc-meta">
@@ -1355,7 +1360,7 @@
                 </div>
             </div>
             <div class="nc-img-full">
-                <img src="https://i.ibb.co/H1r2sNm/PR-PR.jpg" alt="Puerto Rico" />
+                <img src="PR_PR.jpeg" alt="Puerto Rico" />
             </div>
             <div class="nc-expanded">
                 <div class="nc-expanded-inner" data-i18n="lie08Truth"><strong>60% of buyers are Puerto Rican.</strong> The project brings <span class="highlight-badge-dark">$2.5B</span> in private investment and an estimated <span class="highlight-badge-dark">17,000</span> direct, indirect, and induced jobs to the island.</div>
@@ -1366,7 +1371,7 @@
         <div class="news-card fade-in" onclick="toggleNewsCard(this)">
             <div class="nc-collapsed">
                 <div class="nc-thumb">
-                    <img src="https://i.ibb.co/PGP1khzY/Esencia-Beach.png" alt="Esencia Beach" />
+                    <img src="EsenciaBeach.png" alt="Esencia Beach" />
                 </div>
                 <div class="nc-side">
                     <div class="nc-meta">
@@ -1381,7 +1386,7 @@
                 </div>
             </div>
             <div class="nc-img-full">
-                <img src="https://i.ibb.co/PGP1khzY/Esencia-Beach.png" alt="Esencia Beach" />
+                <img src="EsenciaBeach.png" alt="Esencia Beach" />
             </div>
             <div class="nc-expanded">
                 <div class="nc-expanded-inner" data-i18n="lie09Truth">Esencia is <strong>100% privately funded</strong> with $2.5B in planned investment creating <strong>17,000 jobs</strong> and long-term economic activity across Puerto Rico.</div>
@@ -1392,7 +1397,7 @@
         <div class="news-card fade-in" onclick="toggleNewsCard(this)">
             <div class="nc-collapsed">
                 <div class="nc-thumb">
-                    <img src="https://i.ibb.co/5XVNgtbj/Sunset.png" alt="" />
+                    <img src="Sunset.png" alt="" />
                 </div>
                 <div class="nc-side">
                     <div class="nc-meta">
@@ -1407,70 +1412,43 @@
                 </div>
             </div>
             <div class="nc-img-full">
-                <img src="https://i.ibb.co/5XVNgtbj/Sunset.png" alt="" />
+                <img src="Sunset.png" alt="" />
             </div>
             <div class="nc-expanded">
                 <div class="nc-expanded-inner" data-i18n="lie10Truth"><strong>Zero government money received.</strong> 100% privately funded. Any incentives under Act 74 (Tourism Development Act) only activate if and when jobs are actually created.</div>
             </div>
         </div>
+      </div>
 
         <!-- 11 -->
-        <div class="news-card fade-in" onclick="toggleNewsCard(this)">
-            <div class="nc-collapsed">
-                <div class="nc-thumb">
-                    <img src="https://i.ibb.co/JjhwTFM4/Playa.avif" alt="Playa" />
-                </div>
-                <div class="nc-side">
-                    <div class="nc-meta">
-                        <span class="nc-pill">MENTIRA</span>
-                    </div>
-                    <p class="nc-lie" data-i18n="lie11Text">"ESENCIA ESTÁ AVANZANDO ILEGALMENTE"</p>
-                    <p class="nc-headline">La DIA de Esencia ha sido aprobada.</p>
-                    <span class="nc-hint">Ver la verdad
-                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3"/></svg>
-                    </span>
-                </div>
+        <div class="lie-item fade-in">
+            <div class="lie-number">11</div>
+            <div class="lie-header">
+                <span class="lie-badge">LIE</span>
+                <span class="lie-text" data-i18n="lie11Text">"ESENCIA IS MOVING FORWARD ILLEGALLY"</span>
             </div>
-            <div class="nc-img-full">
-                <img src="https://i.ibb.co/JjhwTFM4/Playa.avif" alt="Playa" />
-            </div>
-            <div class="nc-expanded">
-                <div class="nc-expanded-inner" data-i18n="lie11Truth">La <strong>Declaración de Impacto Ambiental de Esencia ha sido aprobada.</strong> El proyecto avanza a través del proceso regulatorio establecido. Las afirmaciones de que no puede proceder legalmente son simplemente falsas.</div>
+            <div class="truth-box">
+                <p data-i18n="lie11Truth">Esencia's <strong>Environmental Impact Statement has been approved.</strong> The project is advancing through the established regulatory process. Claims that it cannot legally proceed are simply false.</p>
             </div>
         </div>
 
         <!-- 12 -->
-        <div class="news-card fade-in" onclick="toggleNewsCard(this)">
-            <div class="nc-collapsed">
-                <div class="nc-thumb">
-                    <img src="https://i.ibb.co/JjhwTFM4/Playa.avif" alt="Playa" />
-                </div>
-                <div class="nc-side">
-                    <div class="nc-meta">
-                        <span class="nc-pill">MENTIRA</span>
-                    </div>
-                    <p class="nc-lie" data-i18n="lie12Text">"IMÁGENES EN LÍNEA MUESTRAN DESTRUCCIÓN CAUSADA POR ESENCIA"</p>
-                    <p class="nc-headline">El daño confirmado fue hecho por un vecino.</p>
-                    <span class="nc-hint">Ver la verdad
-                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3"/></svg>
-                    </span>
-                </div>
+        <div class="lie-item fade-in">
+            <div class="lie-number">12</div>
+            <div class="lie-header">
+                <span class="lie-badge">LIE</span>
+                <span class="lie-text" data-i18n="lie12Text">"IMAGES ONLINE SHOW DESTRUCTION CAUSED BY ESENCIA"</span>
             </div>
-            <div class="nc-img-full">
-                <img src="https://i.ibb.co/JjhwTFM4/Playa.avif" alt="Playa" />
-            </div>
-            <div class="nc-expanded">
-                <div class="nc-expanded-inner" data-i18n="lie12Truth">Imágenes de árboles arrancados y destrucción del terreno se están compartiendo como si fueran causadas por Esencia. En al menos un caso confirmado, <strong>el daño fue hecho por un vecino</strong>. Se presentó una querella formal ante el DRNA. Atribuir falsamente daño de terceros no es protesta, es <strong>desinformación</strong>.</div>
+            <div class="truth-box">
+                <p data-i18n="lie12Truth">Images of uprooted trees and site destruction are being shared as if caused by Esencia. In at least one confirmed case, <strong>the damage was done by a neighboring party</strong>. A formal complaint was filed with DNER. Misattributing third-party damage is not protest; it is <strong>misinformation</strong>.</p>
             </div>
         </div>
 
-      </div>
     </div>
 
     <!-- ==================== FOOTER ==================== -->
-    <div style="height:60px;background:#ffffff;"></div>
     <div class="footer">
-        <img src="https://i.ibb.co/DD8JV2wb/FOOTER.png" alt="La Resistencia Footer" style="width: 100%; display: block;">
+        <img src="FOOTER.png" alt="La Resistencia Footer" style="width: 100%; display: block;">
     </div>
 
     <script>
@@ -1501,7 +1479,7 @@
                 lie04Truth: 'Un desarrollo de mayor densidad ya había sido aprobado antes de que Esencia existiera. El nuevo plan reduce la huella construida en un <strong>80%</strong>. Más del <strong>75%</strong> del terreno se mantiene como espacio abierto. El plan incluye <strong>33+ acres de restauración de humedales y manglares</strong>.',
                 lie05Text: '"EL TERRENO ESTÁ INTACTO Y ESENCIA ESTÁ CAUSANDO TODO EL DAÑO"',
                 lie05Truth: 'El terreno no está intacto. Años de construcción abandonada y usos dañinos lo dejaron degradado. Esencia ya ha <strong>removido más de 54,000 toneladas de basura</strong> de la propiedad. Algunas imágenes que circulan en línea muestran daño causado por <strong>vecinos, no por Esencia</strong>. Se presentó una querella ante el DRNA.',
-                blueDivider: 'AGUA E INFRAESTRUCTURA',
+                blueDivider: '<span class="diamond">&#9670;</span> AUTOSUFICIENTE &middot; AGUA E INFRAESTRUCTURA <span class="diamond">&#9670;</span>',
                 lie06Text: '"ESENCIA ROBARÁ EL AGUA DE LA GENTE LOCAL"',
                 lie06Truth: '<strong>Esencia no depende del sistema público de agua.</strong> El proyecto está diseñado para ser <strong>completamente autosuficiente en agua</strong>: sus propios pozos profundos, tanque de almacenamiento de <span class="highlight-badge-blue">1M-GALONES</span>, filtración avanzada, captación de agua lluvia y reciclaje completo de aguas residuales para riego. Este sistema está específicamente diseñado para <strong>reducir la presión sobre la infraestructura pública</strong>, no añadirle.',
                 lie07Text: '"ESENCIA ROBARÁ LA ENERGÍA LOCAL Y SOBRECARGARÁ LA RED"',
@@ -1547,7 +1525,7 @@
                 lie04Truth: 'A higher-density development was already approved before Esencia existed. The new plan cuts the built footprint by <strong>80%</strong>. More than <strong>75%</strong> of the site stays open space. The plan includes <strong>33+ acres of wetland and mangrove restoration</strong>.',
                 lie05Text: '"THE LAND IS UNTOUCHED AND ESENCIA IS CAUSING ALL THE DAMAGE"',
                 lie05Truth: 'The land is not untouched. Years of abandoned construction and damaging uses left it degraded. Esencia has already <strong>removed 54,000+ tons of garbage</strong> from the property. Some images circulating online show damage caused by <strong>neighboring parties, not Esencia</strong>. A complaint was filed with DNER.',
-                blueDivider: 'WATER & INFRASTRUCTURE',
+                blueDivider: '<span class="diamond">&#9670;</span> SELF-SUFFICIENT &middot; WATER & INFRASTRUCTURE <span class="diamond">&#9670;</span>',
                 lie06Text: '"ESENCIA WILL STEAL WATER FROM LOCAL PEOPLE"',
                 lie06Truth: '<strong>Esencia does not rely on the public water system.</strong> The project is built to be <strong>completely self-sufficient on water</strong>: its own deep wells, <span class="highlight-badge-blue">1M-GALLON</span> storage tank, advanced filtration, rainwater harvesting, and full wastewater recycling for irrigation. This system is specifically designed to <strong>reduce pressure on public infrastructure</strong>, not add to it.',
                 lie07Text: '"ESENCIA WILL STEAL LOCAL ENERGY AND STRAIN THE GRID"',
